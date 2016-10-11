@@ -340,6 +340,7 @@ static float const BOX_THICKNESS = 0.7f;
     center = CGPointMake(self.bounds.size.width / 2.0f, self.bounds.size.height / 2.0f);
 
     layerHueCircle.frame = self.bounds;
+    [layerHueCircle setNeedsDisplay];
     layerSaturationBrightnessBox.frame = CGRectMake((self.bounds.size.width - boxSize) / 2.0f, (self.bounds.size.height - boxSize) / 2.0f, boxSize, boxSize);
     layerHueMarker.frame = [self hueMarkerRect];
     layerSaturationBrightnessMarker.frame = [self saturationBrightnessMarkerRect];
