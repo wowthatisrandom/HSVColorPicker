@@ -9,7 +9,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "HSVColorPicker"
-  s.version          = "0.1.1"
+  s.version          = "0.1.2"
   s.summary          = "An iOS HSV Color Picker control"
   s.description      = <<-DESC
                        An iOS HSV Color Picker control
